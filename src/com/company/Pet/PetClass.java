@@ -1,14 +1,14 @@
-package com.company;
+package com.company.Pet;
 
-public class Dog {
+public class PetClass {
 
         String name;
         String breed;
         int age;
         String color;
 
-        public Dog (String name, String breed,
-                   int age, String color)
+        public PetClass(String name, String breed,
+                        int age, String color)
         {
             this.name = name;
             this.breed = breed;
@@ -34,7 +34,7 @@ public class Dog {
 
         @Override
         public String toString () {
-            return ("Hi my name is " + this.getName()+ ".\n My breed is " + this.getBreed()+ ", I am "
-                    + this.getAge()+ " year old and my color is" + this.getColor());
+            return ("Hi, my name is " + name +".\n My breed is " + breed + ", I am "
+                    + age + " years old and my color is " + color);
         }
 }
