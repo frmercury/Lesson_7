@@ -18,3 +18,4 @@ public class CompConfig {
         return ("Congratulation, You've bought a computer with next parameters: \n" + "CPU: " + cpu + "\n" + "RAM: " + ram + "\n" + "GPU: " + gpu + "\n" + "SSD: " + SSD);
     }
 }
+

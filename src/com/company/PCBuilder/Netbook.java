@@ -7,3 +7,4 @@ public class Netbook {
         System.out.println(netbook.toString());
     }
 }
+
