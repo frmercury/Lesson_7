@@ -6,3 +6,4 @@ public class Cat {
         System.out.println(myCat.toString());
     }
 }
+

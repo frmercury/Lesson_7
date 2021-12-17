@@ -13,3 +13,4 @@ public class MercedesBenz {
         System.out.println(mercedesBenz.toString());
     }
 }
+
